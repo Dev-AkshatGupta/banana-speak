@@ -1,19 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
 * {
     box-sizing: border-box;
 }
 
 :root {
-    --primary: #F2C94C;
+    --primary: #059669;
     --black: #333333;
     --width-break:600px
 }
 
 body {
     margin: 0;
-    font-family: 'Kalam', cursive;
-    color: #333333;
+  font-family: 'Stick No Bills', sans-serif;
+    color:white;
 }
 
 nav {
@@ -30,7 +29,7 @@ main {
 textarea {
     box-sizing: border-box;
     display: block;
-    width: 100%;
+    width: 90%;
     min-height: 20vh;
     margin-top: 2rem;
     font-size: large;
@@ -38,18 +37,19 @@ textarea {
 }
 
 button {
+  color: white;
     background-color: var(--primary);
     border: none;
     margin: 1rem 0rem;
     padding: 1rem 2rem;
-    font-family: 'Kalam', cursive;
+    font-family: 'Stick No Bills', sans-serif;
     font-size: large;
 }
 
 
 #translate-output {
     box-sizing: border-box;
-    width: 100%;
+    width: 90%;
     min-height: 10vh;
     max-height: 20vh;
     overflow:scroll;
