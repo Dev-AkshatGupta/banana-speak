@@ -1,23 +1,21 @@
-// welcome to event based programming
-// and callback
 
 
-// button click
+
+
 var translateButton = document.querySelector("#translate-button");
 
 translateButton.addEventListener("click", buttonClickHandler)
 
-// read input
 var translateInput = document.querySelector("#translate-input");
 
-// show output
+
 var translateOutput = document.querySelector("#translate-output");
 
-// var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+
 
 var url = "https://api.funtranslations.com/translate/minion.json"
 
-// REPL URL: https://repl.it/@tanaypratap/lessonfourapi
+
 
 function buttonClickHandler(event) {
     console.log("button clicked");
