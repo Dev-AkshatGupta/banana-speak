@@ -54,6 +54,7 @@ button {
     max-height: 20vh;
     overflow:scroll;
     border: 1px solid var(--black);
+    color: black;
 }
 
 footer {
